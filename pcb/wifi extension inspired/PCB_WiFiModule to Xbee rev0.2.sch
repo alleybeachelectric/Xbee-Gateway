@@ -2133,8 +2133,8 @@ Source: http://www.osram.convergy.de/</description>
 </instance>
 <instance part="U$8" gate="G$1" x="137.16" y="218.44" smashed="yes"/>
 <instance part="SJ1" gate="1" x="149.86" y="132.08"/>
-<instance part="SJ2" gate="1" x="149.86" y="137.16"/>
-<instance part="SJ3" gate="1" x="149.86" y="127"/>
+<instance part="SJ2" gate="1" x="157.48" y="137.16"/>
+<instance part="SJ3" gate="1" x="157.48" y="127"/>
 <instance part="SJ4" gate="1" x="149.86" y="124.46"/>
 <instance part="R6" gate="G$1" x="165.1" y="213.36" smashed="yes" rot="R180">
 <attribute name="NAME" x="166.0525" y="211.9884" size="1.524" layer="95" rot="R180"/>
@@ -2229,7 +2229,7 @@ Source: http://www.osram.convergy.de/</description>
 <label x="113.3475" y="127.3175" size="1.778" layer="95"/>
 <pinref part="J1" gate="G$1" pin="8"/>
 <pinref part="SJ3" gate="1" pin="1"/>
-<wire x1="111.76" y1="127" x2="144.78" y2="127" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="127" x2="152.4" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3.3V" class="0">
@@ -2278,6 +2278,7 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="132.08" y1="175.26" x2="109.22" y2="175.26" width="0.1524" layer="91"/>
 <junction x="132.08" y="175.26"/>
 <pinref part="LED1" gate="G$1" pin="C"/>
+<label x="114.3" y="175.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="U6TX" class="0">
@@ -2297,16 +2298,17 @@ Source: http://www.osram.convergy.de/</description>
 <wire x1="144.78" y1="195.58" x2="144.78" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="213.36" x2="149.86" y2="213.36" width="0.1524" layer="91"/>
 <junction x="144.78" y="195.58"/>
+<label x="114.3" y="177.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RE0" class="0">
 <segment>
 <label x="113.3475" y="134.9375" size="1.778" layer="95"/>
-<wire x1="111.76" y1="134.62" x2="208.28" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="134.62" x2="210.82" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="J1" gate="G$1" pin="11"/>
 <pinref part="U1" gate="G$1" pin="ON/SLEEP"/>
-<wire x1="205.74" y1="182.88" x2="208.28" y2="182.88" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="182.88" x2="208.28" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="182.88" x2="210.82" y2="182.88" width="0.1524" layer="91"/>
+<wire x1="210.82" y1="182.88" x2="210.82" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RF1" class="0">
@@ -2314,7 +2316,7 @@ Source: http://www.osram.convergy.de/</description>
 <label x="113.3475" y="137.4775" size="1.778" layer="95"/>
 <pinref part="J1" gate="G$1" pin="12"/>
 <pinref part="SJ2" gate="1" pin="1"/>
-<wire x1="111.76" y1="137.16" x2="144.78" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="137.16" x2="152.4" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -2362,27 +2364,27 @@ Source: http://www.osram.convergy.de/</description>
 <segment>
 <pinref part="U1" gate="G$1" pin="CTS/DIO7"/>
 <wire x1="205.74" y1="180.34" x2="213.36" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="SJ4" gate="1" pin="2"/>
 <wire x1="213.36" y1="180.34" x2="213.36" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="SJ4" gate="1" pin="2"/>
 <wire x1="213.36" y1="124.46" x2="154.94" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="AD4/DIO4"/>
-<wire x1="205.74" y1="177.8" x2="210.82" y2="177.8" width="0.1524" layer="91"/>
-<pinref part="SJ3" gate="1" pin="2"/>
-<wire x1="210.82" y1="177.8" x2="210.82" y2="127" width="0.1524" layer="91"/>
-<wire x1="210.82" y1="127" x2="154.94" y2="127" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="177.8" x2="208.28" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="177.8" x2="208.28" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="SJ2" gate="1" pin="2"/>
+<wire x1="208.28" y1="137.16" x2="162.56" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="SJ2" gate="1" pin="2"/>
-<wire x1="154.94" y1="137.16" x2="215.9" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="215.9" y1="137.16" x2="215.9" y2="190.5" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="RTS/DIO6"/>
+<wire x1="215.9" y1="127" x2="215.9" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="190.5" x2="205.74" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="SJ3" gate="1" pin="2"/>
+<wire x1="162.56" y1="127" x2="215.9" y2="127" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
