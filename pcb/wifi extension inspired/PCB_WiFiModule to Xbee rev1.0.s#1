@@ -2078,8 +2078,6 @@ Source: http://www.osram.convergy.de/</description>
 <sheet>
 <plain>
 <text x="319.0875" y="6.35" size="3.81" layer="94">1.0</text>
-<text x="276.86" y="44.1325" size="1.778" layer="94">Revision history:</text>
-<text x="276.86" y="41.5925" size="1.778" layer="94">1.0 Initial revision</text>
 </plain>
 <instances>
 <instance part="U$23" gate="G$1" x="0" y="0" smashed="yes"/>

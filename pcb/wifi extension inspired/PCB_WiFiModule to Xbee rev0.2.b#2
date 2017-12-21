@@ -161,14 +161,10 @@
 </layers>
 <board>
 <plain>
-<wire x1="40.5" y1="31.698" x2="40.5" y2="0.762" width="0" layer="20"/>
-<wire x1="40.5" y1="0.762" x2="39.738" y2="0" width="0" layer="20" curve="-90"/>
-<wire x1="0" y1="31.698" x2="0" y2="0.762" width="0" layer="20"/>
-<wire x1="0" y1="0.762" x2="0.762" y2="0" width="0" layer="20" curve="90"/>
-<wire x1="0.762" y1="0" x2="39.738" y2="0" width="0" layer="20"/>
-<wire x1="0.762" y1="32.46" x2="39.738" y2="32.46" width="0" layer="20"/>
-<wire x1="39.738" y1="32.46" x2="40.5" y2="31.698" width="0" layer="20" curve="-90"/>
-<wire x1="0.762" y1="32.46" x2="0" y2="31.698" width="0" layer="20" curve="90"/>
+<wire x1="0" y1="0" x2="40.5" y2="0" width="0" layer="20"/>
+<wire x1="40.5" y1="32.46" x2="0" y2="32.46" width="0" layer="20"/>
+<wire x1="0" y1="32.46" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="40.5" y1="32.46" x2="40.5" y2="0" width="0" layer="20"/>
 <text x="27.59999375" y="28.229990625" size="0.8500125" layer="125" ratio="12" rot="R180">M1</text>
 <text x="17.6205125" y="30.6568125" size="0.8500125" layer="125" ratio="12" rot="R180">R20</text>
 <text x="21.02050625" y="30.6568125" size="0.8500125" layer="125" ratio="12" rot="R180">R21</text>
@@ -669,24 +665,24 @@ design rules under a new name.</description>
 <signals>
 <signal name="DGND">
 <polygon width="0.3" layer="16" isolate="0.254">
-<vertex x="1.262" y="31.96"/>
-<vertex x="39.238" y="31.96" curve="-90"/>
-<vertex x="40" y="31.198"/>
-<vertex x="40" y="1.262" curve="-90"/>
-<vertex x="39.238" y="0.5"/>
-<vertex x="1.262" y="0.5" curve="-90"/>
-<vertex x="0.5" y="1.262"/>
-<vertex x="0.5" y="31.198" curve="-90"/>
+<vertex x="0.5" y="31.46"/>
+<vertex x="1" y="31.96"/>
+<vertex x="39.5" y="31.96"/>
+<vertex x="40" y="31.46"/>
+<vertex x="40" y="1"/>
+<vertex x="39.5" y="0.5"/>
+<vertex x="1" y="0.5"/>
+<vertex x="0.5" y="1"/>
 </polygon>
 <polygon width="0.3" layer="1" isolate="0.254">
-<vertex x="1.262" y="31.96"/>
-<vertex x="39.238" y="31.96" curve="-90"/>
-<vertex x="40" y="31.198"/>
-<vertex x="40" y="1.262" curve="-90"/>
-<vertex x="39.238" y="0.5"/>
-<vertex x="1.262" y="0.5" curve="-90"/>
-<vertex x="0.5" y="1.262"/>
-<vertex x="0.5" y="31.198" curve="-90"/>
+<vertex x="0.5" y="31.46"/>
+<vertex x="1" y="31.96"/>
+<vertex x="39.5" y="31.96"/>
+<vertex x="40" y="31.46"/>
+<vertex x="40" y="1"/>
+<vertex x="39.5" y="0.5"/>
+<vertex x="1" y="0.5"/>
+<vertex x="0.5" y="1"/>
 </polygon>
 <contactref element="J1" pad="1"/>
 <contactref element="J1" pad="4"/>
